@@ -1,0 +1,10 @@
+.login-form{
+    margin: 200px auto 0 auto;
+    width: 300px;
+}
+    .login-form-button {
+        width: 100%;
+    }
+    .Alert{
+        margin-bottom: 20px;
+    }

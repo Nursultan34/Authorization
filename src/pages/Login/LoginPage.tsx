@@ -40,15 +40,7 @@ const  LoginPage = ({ value,children}:LoginPageProps) =>  {
         const usersList: UserItem[] = await response.json()
         const foundUser = usersList.find((user) => user.username === userName);
         
-     if(!foundUser) {
-      setError("Такого пользователя не существует!");
-     }else{
-         setError("")
-     setIsLoading(false)
-
-
-     console.log(foundUser)
-    }
+    
     
  
     return (
